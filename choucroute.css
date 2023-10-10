@@ -1,0 +1,14 @@
+.rouge{color: red;}
+
+.carre{
+    height: 200px;
+    width: 200px;
+    transition: opacity 1s;
+}
+
+.vert{
+    background-color: green;
+}
+.invisible{
+    opacity: 0%;
+}

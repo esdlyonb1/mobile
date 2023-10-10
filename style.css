@@ -26,6 +26,7 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .steak{
 
@@ -96,4 +97,33 @@ html,body{
     }
     .liens{display: block}
 
+}
+
+.menu{
+    background-color: darkorange;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 0;
+    transition: height 2s;
+
+}
+.menu>a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: gras;
+    font-family: Ubuntu;
+    display: none;
+
+
+}
+.ouvert{
+    height: 88vh;
+
+}
+.ouvert>a{
+    display: block;
 }
